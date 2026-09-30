@@ -1,0 +1,145 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "risk_level": "High",
+    "district": "Cuddalore",
+    "note": "illustrative screening zone"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       79.67103688523392,
+       11.3
+      ],
+      [
+       79.95,
+       11.3
+      ],
+      [
+       79.95,
+       11.9
+      ],
+      [
+       79.67103688523392,
+       11.9
+      ],
+      [
+       79.67103688523392,
+       11.3
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "risk_level": "High",
+    "district": "Nagapattinam",
+    "note": "illustrative screening zone"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       79.76973508196491,
+       10.7
+      ],
+      [
+       80.0,
+       10.7
+      ],
+      [
+       80.0,
+       11.3
+      ],
+      [
+       79.76973508196491,
+       11.3
+      ],
+      [
+       79.76973508196491,
+       10.7
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "risk_level": "High",
+    "district": "Thanjavur",
+    "note": "illustrative screening zone"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       79.22854200117408,
+       10.3
+      ],
+      [
+       79.5,
+       10.3
+      ],
+      [
+       79.5,
+       10.9
+      ],
+      [
+       79.22854200117408,
+       10.9
+      ],
+      [
+       79.22854200117408,
+       10.3
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "risk_level": "High",
+    "district": "Pudukkottai",
+    "note": "illustrative screening zone"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       79.18790445153132,
+       9.8
+      ],
+      [
+       79.5,
+       9.8
+      ],
+      [
+       79.5,
+       10.3
+      ],
+      [
+       79.18790445153132,
+       10.3
+      ],
+      [
+       79.18790445153132,
+       9.8
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

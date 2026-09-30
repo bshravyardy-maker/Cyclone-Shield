@@ -1,0 +1,397 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Kutch Grid Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.5035,
+     23.5544
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Kutch District Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     69.5871,
+     23.4269
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Kutch Coastal Road Link",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     69.3876,
+     23.4135
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Kutch Cyclone Shelter",
+    "type": "shelter"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     69.188,
+     23.1671
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Kutch Backup Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     69.5633,
+     23.6449
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Kutch Community Health Centre",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.7769,
+     23.7409
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Kutch Bridge",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.4515,
+     23.5446
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Devbhumi Dwarka Grid Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     69.109,
+     22.109
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Devbhumi Dwarka District Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     69.3055,
+     22.8723
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Devbhumi Dwarka Coastal Road Link",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     69.3119,
+     22.0393
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Devbhumi Dwarka Cyclone Shelter",
+    "type": "shelter"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.9326,
+     22.7436
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Devbhumi Dwarka Backup Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.8723,
+     22.7266
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Devbhumi Dwarka Community Health Centre",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     69.392,
+     22.8377
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Devbhumi Dwarka Bridge",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.6468,
+     22.6731
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Jamnagar Grid Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     70.2482,
+     22.7542
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Jamnagar District Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     70.4218,
+     22.8275
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Jamnagar Coastal Road Link",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     69.8652,
+     22.7108
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Jamnagar Cyclone Shelter",
+    "type": "shelter"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     69.8006,
+     22.5712
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Jamnagar Backup Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     69.9485,
+     22.8411
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Jamnagar Community Health Centre",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     69.9864,
+     22.2236
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Jamnagar Bridge",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     69.9579,
+     22.4586
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Morbi Grid Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     70.7221,
+     22.9264
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Morbi District Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     70.9994,
+     23.0475
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Morbi Coastal Road Link",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     70.5942,
+     23.1312
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Morbi Cyclone Shelter",
+    "type": "shelter"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     70.8907,
+     23.0585
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Morbi Backup Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     70.8206,
+     22.7859
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Morbi Community Health Centre",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     70.7318,
+     23.1317
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Morbi Bridge",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     70.8513,
+     23.0951
+    ]
+   }
+  }
+ ]
+}

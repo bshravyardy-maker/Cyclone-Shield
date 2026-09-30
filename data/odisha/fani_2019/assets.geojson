@@ -1,0 +1,229 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Puri Coastal Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.83,
+     19.81
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Puri District Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.85,
+     19.8
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Marine Drive Bridge",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.75,
+     19.72
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Puri Cyclone Shelter A",
+    "type": "shelter"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.8,
+     19.78
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Konark Road Shelter",
+    "type": "shelter"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.95,
+     19.75
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Puri Inland Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.9,
+     19.95
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Puri North Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.7,
+     19.95
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Khordha Lowland Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.75,
+     20.1
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "NH-316 Causeway",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.7,
+     20.05
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Bhubaneswar Medical Hub",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.83,
+     20.27
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Khordha Shelter B",
+    "type": "shelter"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.4,
+     20.2
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Cuttack Central Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     86.2,
+     20.4
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Cuttack Grid Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     86.1,
+     20.3
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Ganjam Coast Shelter",
+    "type": "shelter"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.3,
+     19.45
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Ganjam Grid Station",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.0,
+     19.5
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Berhampur Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.9,
+     19.3
+    ]
+   }
+  }
+ ]
+}

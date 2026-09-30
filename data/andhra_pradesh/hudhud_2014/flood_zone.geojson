@@ -1,0 +1,145 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "risk_level": "High",
+    "district": "Visakhapatnam",
+    "note": "illustrative screening zone"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       83.32840461915994,
+       17.4
+      ],
+      [
+       83.6,
+       17.4
+      ],
+      [
+       83.6,
+       17.95
+      ],
+      [
+       83.32840461915994,
+       17.95
+      ],
+      [
+       83.32840461915994,
+       17.4
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "risk_level": "High",
+    "district": "Vizianagaram",
+    "note": "illustrative screening zone"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       83.5770168199099,
+       17.95
+      ],
+      [
+       83.9,
+       17.95
+      ],
+      [
+       83.9,
+       18.5
+      ],
+      [
+       83.5770168199099,
+       18.5
+      ],
+      [
+       83.5770168199099,
+       17.95
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "risk_level": "High",
+    "district": "Srikakulam",
+    "note": "illustrative screening zone"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       84.08540645976473,
+       18.5
+      ],
+      [
+       84.5,
+       18.5
+      ],
+      [
+       84.5,
+       19.0
+      ],
+      [
+       84.08540645976473,
+       19.0
+      ],
+      [
+       84.08540645976473,
+       18.5
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "risk_level": "High",
+    "district": "East Godavari",
+    "note": "illustrative screening zone"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       82.2415060594653,
+       16.6
+      ],
+      [
+       82.6,
+       16.6
+      ],
+      [
+       82.6,
+       17.4
+      ],
+      [
+       82.2415060594653,
+       17.4
+      ],
+      [
+       82.2415060594653,
+       16.6
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,229 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Nellore Port Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.1,
+     14.3
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Nellore Coastal Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.2,
+     14.45
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Krishnapatnam Road Link",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.15,
+     14.25
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Nellore Shelter 1",
+    "type": "shelter"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.25,
+     14.1
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Nellore City Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.98,
+     14.44
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Prakasam Coast Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.2,
+     15.3
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Ongole Shelter",
+    "type": "shelter"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.05,
+     15.5
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Ongole GH",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.75,
+     15.5
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Bapatla Beach Road",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.5,
+     15.85
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Bapatla Cyclone Shelter",
+    "type": "shelter"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.45,
+     15.9
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Bapatla Area Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.47,
+     15.75
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Guntur Link Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.2,
+     16.1
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Machilipatnam Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     81.1,
+     16.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Krishna District Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     81.15,
+     16.35
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Krishna Delta Shelter",
+    "type": "shelter"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     81.0,
+     16.05
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Vijayawada Road Node",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     81.0,
+     16.3
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "odisha": {
+  "name": "Odisha",
+  "language_code": "or",
+  "language_name": "Odia",
+  "sdma_contact": "OSDMA (placeholder)",
+  "center": [
+   20.2,
+   86.2
+  ],
+  "zoom": 8,
+  "cyclones": [
+   {
+    "id": "fani_2019",
+    "name": "Cyclone Fani (2019)"
+   },
+   {
+    "id": "yaas_2021",
+    "name": "Cyclone Yaas (2021)"
+   },
+   {
+    "id": "dana_2024",
+    "name": "Cyclone Dana (2024)"
+   }
+  ]
+ },
+ "andhra_pradesh": {
+  "name": "Andhra Pradesh",
+  "language_code": "te",
+  "language_name": "Telugu",
+  "sdma_contact": "APSDMA (placeholder)",
+  "center": [
+   16.5,
+   81.8
+  ],
+  "zoom": 7,
+  "cyclones": [
+   {
+    "id": "michaung_2023",
+    "name": "Cyclone Michaung (2023)"
+   },
+   {
+    "id": "hudhud_2014",
+    "name": "Cyclone Hudhud (2014)"
+   }
+  ]
+ },
+ "west_bengal": {
+  "name": "West Bengal",
+  "language_code": "bn",
+  "language_name": "Bengali",
+  "sdma_contact": "WB Disaster Mgmt Dept (placeholder)",
+  "center": [
+   22.0,
+   88.4
+  ],
+  "zoom": 8,
+  "cyclones": [
+   {
+    "id": "amphan_2020",
+    "name": "Cyclone Amphan (2020)"
+   }
+  ]
+ },
+ "tamil_nadu": {
+  "name": "Tamil Nadu",
+  "language_code": "ta",
+  "language_name": "Tamil",
+  "sdma_contact": "TNSDMA (placeholder)",
+  "center": [
+   11.8,
+   79.8
+  ],
+  "zoom": 7,
+  "cyclones": [
+   {
+    "id": "vardah_2016",
+    "name": "Cyclone Vardah (2016)"
+   },
+   {
+    "id": "gaja_2018",
+    "name": "Cyclone Gaja (2018)"
+   }
+  ]
+ },
+ "gujarat": {
+  "name": "Gujarat",
+  "language_code": "gu",
+  "language_name": "Gujarati",
+  "sdma_contact": "GSDMA (placeholder)",
+  "center": [
+   22.9,
+   69.6
+  ],
+  "zoom": 7,
+  "cyclones": [
+   {
+    "id": "biparjoy_2023",
+    "name": "Cyclone Biparjoy (2023)"
+   }
+  ]
+ },
+ "maharashtra": {
+  "name": "Maharashtra",
+  "language_code": "mr",
+  "language_name": "Marathi",
+  "sdma_contact": "MSDMA (placeholder)",
+  "center": [
+   18.4,
+   73.1
+  ],
+  "zoom": 8,
+  "cyclones": [
+   {
+    "id": "nisarga_2020",
+    "name": "Cyclone Nisarga (2020)"
+   }
+  ]
+ }
+}

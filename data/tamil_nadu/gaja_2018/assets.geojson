@@ -1,0 +1,397 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Cuddalore Grid Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4788,
+     11.4648
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Cuddalore District Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.8881,
+     11.6791
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Cuddalore Coastal Road Link",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.6006,
+     11.3961
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Cuddalore Cyclone Shelter",
+    "type": "shelter"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.6942,
+     11.8164
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Cuddalore Backup Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4999,
+     11.5831
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Cuddalore Community Health Centre",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.62,
+     11.6019
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Cuddalore Bridge",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.624,
+     11.3546
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Nagapattinam Grid Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.7769,
+     10.8808
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Nagapattinam District Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.6406,
+     10.8681
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Nagapattinam Coastal Road Link",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.7674,
+     10.9796
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Nagapattinam Cyclone Shelter",
+    "type": "shelter"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.8578,
+     10.8918
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Nagapattinam Backup Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.8345,
+     11.2064
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Nagapattinam Community Health Centre",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.9412,
+     10.9544
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Nagapattinam Bridge",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.7308,
+     10.8075
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Thanjavur Grid Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2341,
+     10.5955
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Thanjavur District Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2708,
+     10.4652
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Thanjavur Coastal Road Link",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4475,
+     10.6648
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Thanjavur Cyclone Shelter",
+    "type": "shelter"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.1883,
+     10.7912
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Thanjavur Backup Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     78.9641,
+     10.5528
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Thanjavur Community Health Centre",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.135,
+     10.3782
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Thanjavur Bridge",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.0769,
+     10.7423
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Pudukkottai Grid Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.1622,
+     9.8629
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Pudukkottai District Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2921,
+     10.0595
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Pudukkottai Coastal Road Link",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.0985,
+     10.257
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Pudukkottai Cyclone Shelter",
+    "type": "shelter"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3662,
+     10.279
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Pudukkottai Backup Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3348,
+     10.2025
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Pudukkottai Community Health Centre",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3214,
+     10.2089
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Pudukkottai Bridge",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.111,
+     10.01
+    ]
+   }
+  }
+ ]
+}

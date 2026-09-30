@@ -1,0 +1,397 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Visakhapatnam Grid Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.5544,
+     17.5749
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Visakhapatnam District Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.433,
+     17.644
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Visakhapatnam Coastal Road Link",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.5023,
+     17.8698
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Visakhapatnam Cyclone Shelter",
+    "type": "shelter"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.289,
+     17.815
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Visakhapatnam Backup Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.2677,
+     17.606
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Visakhapatnam Community Health Centre",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.2359,
+     17.7143
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Visakhapatnam Bridge",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.3275,
+     17.5396
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Vizianagaram Grid Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.3091,
+     18.2765
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Vizianagaram District Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.8725,
+     18.1986
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Vizianagaram Coastal Road Link",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.7178,
+     18.3917
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Vizianagaram Cyclone Shelter",
+    "type": "shelter"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.2724,
+     17.978
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Vizianagaram Backup Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.7453,
+     18.2829
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Vizianagaram Community Health Centre",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.7677,
+     18.0679
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Vizianagaram Bridge",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.5069,
+     18.3588
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Srikakulam Grid Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.9429,
+     18.9201
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Srikakulam District Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.2282,
+     18.6272
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Srikakulam Coastal Road Link",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.9061,
+     18.7684
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Srikakulam Cyclone Shelter",
+    "type": "shelter"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.1119,
+     18.9383
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Srikakulam Backup Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.6875,
+     18.7309
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Srikakulam Community Health Centre",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.2602,
+     18.7261
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Srikakulam Bridge",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.1442,
+     18.8831
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "East Godavari Grid Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     82.4338,
+     16.9872
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "East Godavari District Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     82.1418,
+     16.7959
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "East Godavari Coastal Road Link",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     81.9699,
+     17.1248
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "East Godavari Cyclone Shelter",
+    "type": "shelter"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     82.2776,
+     16.778
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "East Godavari Backup Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     82.2429,
+     17.1326
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "East Godavari Community Health Centre",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     82.0139,
+     16.8429
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "East Godavari Bridge",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     81.9633,
+     16.976
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "district": "Kutch"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       68.4,
+       23.0
+      ],
+      [
+       70.0,
+       23.0
+      ],
+      [
+       70.0,
+       23.9
+      ],
+      [
+       68.4,
+       23.9
+      ],
+      [
+       68.4,
+       23.0
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "district": "Devbhumi Dwarka"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       68.6,
+       22.0
+      ],
+      [
+       69.5,
+       22.0
+      ],
+      [
+       69.5,
+       22.9
+      ],
+      [
+       68.6,
+       22.9
+      ],
+      [
+       68.6,
+       22.0
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "district": "Jamnagar"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       69.6,
+       22.2
+      ],
+      [
+       70.5,
+       22.2
+      ],
+      [
+       70.5,
+       22.9
+      ],
+      [
+       69.6,
+       22.9
+      ],
+      [
+       69.6,
+       22.2
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "district": "Morbi"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       70.5,
+       22.7
+      ],
+      [
+       71.1,
+       22.7
+      ],
+      [
+       71.1,
+       23.3
+      ],
+      [
+       70.5,
+       23.3
+      ],
+      [
+       70.5,
+       22.7
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

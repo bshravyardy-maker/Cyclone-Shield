@@ -1,0 +1,397 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Raigad Grid Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.9863,
+     18.5447
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Raigad District Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.9711,
+     18.5842
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Raigad Coastal Road Link",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.1859,
+     18.2122
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Raigad Cyclone Shelter",
+    "type": "shelter"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.2521,
+     18.6641
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Raigad Backup Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.9464,
+     18.4643
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Raigad Community Health Centre",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.044,
+     18.4915
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Raigad Bridge",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.2951,
+     18.5924
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Ratnagiri Grid Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.4161,
+     17.1028
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Ratnagiri District Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.0609,
+     17.2518
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Ratnagiri Coastal Road Link",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.5016,
+     17.7652
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Ratnagiri Cyclone Shelter",
+    "type": "shelter"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.5184,
+     17.5613
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Ratnagiri Backup Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.0353,
+     17.7533
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Ratnagiri Community Health Centre",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.3175,
+     17.4122
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Ratnagiri Bridge",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.27,
+     17.0955
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Palghar Grid Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.1137,
+     19.7533
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Palghar District Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.0863,
+     19.323
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Palghar Coastal Road Link",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.1611,
+     19.7777
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Palghar Cyclone Shelter",
+    "type": "shelter"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.9486,
+     19.8234
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Palghar Backup Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.0732,
+     19.7634
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Palghar Community Health Centre",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.0944,
+     19.6301
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Palghar Bridge",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7296,
+     19.8229
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Mumbai Suburban Grid Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.8671,
+     19.2626
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Mumbai Suburban District Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.9197,
+     19.0705
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Mumbai Suburban Coastal Road Link",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.8226,
+     18.9257
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Mumbai Suburban Cyclone Shelter",
+    "type": "shelter"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.8283,
+     18.9712
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Mumbai Suburban Backup Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.8521,
+     18.9585
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Mumbai Suburban Community Health Centre",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.8935,
+     18.937
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Mumbai Suburban Bridge",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.839,
+     18.9294
+    ]
+   }
+  }
+ ]
+}

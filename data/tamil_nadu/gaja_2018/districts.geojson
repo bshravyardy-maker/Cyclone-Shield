@@ -1,0 +1,137 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "district": "Cuddalore"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       79.4,
+       11.3
+      ],
+      [
+       79.95,
+       11.3
+      ],
+      [
+       79.95,
+       11.9
+      ],
+      [
+       79.4,
+       11.9
+      ],
+      [
+       79.4,
+       11.3
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "district": "Nagapattinam"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       79.5,
+       10.7
+      ],
+      [
+       80.0,
+       10.7
+      ],
+      [
+       80.0,
+       11.3
+      ],
+      [
+       79.5,
+       11.3
+      ],
+      [
+       79.5,
+       10.7
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "district": "Thanjavur"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       78.9,
+       10.3
+      ],
+      [
+       79.5,
+       10.3
+      ],
+      [
+       79.5,
+       10.9
+      ],
+      [
+       78.9,
+       10.9
+      ],
+      [
+       78.9,
+       10.3
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "district": "Pudukkottai"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       78.9,
+       9.8
+      ],
+      [
+       79.5,
+       9.8
+      ],
+      [
+       79.5,
+       10.3
+      ],
+      [
+       78.9,
+       10.3
+      ],
+      [
+       78.9,
+       9.8
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

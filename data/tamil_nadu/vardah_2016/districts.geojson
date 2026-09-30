@@ -1,0 +1,137 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "district": "Chennai"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       80.15,
+       13.0
+      ],
+      [
+       80.32,
+       13.0
+      ],
+      [
+       80.32,
+       13.2
+      ],
+      [
+       80.15,
+       13.2
+      ],
+      [
+       80.15,
+       13.0
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "district": "Tiruvallur"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       79.8,
+       13.2
+      ],
+      [
+       80.3,
+       13.2
+      ],
+      [
+       80.3,
+       13.7
+      ],
+      [
+       79.8,
+       13.7
+      ],
+      [
+       79.8,
+       13.2
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "district": "Chengalpattu"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       79.8,
+       12.4
+      ],
+      [
+       80.3,
+       12.4
+      ],
+      [
+       80.3,
+       13.0
+      ],
+      [
+       79.8,
+       13.0
+      ],
+      [
+       79.8,
+       12.4
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "district": "Villupuram"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       79.4,
+       11.7
+      ],
+      [
+       80.0,
+       11.7
+      ],
+      [
+       80.0,
+       12.4
+      ],
+      [
+       79.4,
+       12.4
+      ],
+      [
+       79.4,
+       11.7
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

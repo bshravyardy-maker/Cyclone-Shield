@@ -1,0 +1,141 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "risk_level": "High",
+    "note": "illustrative screening zone"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       88.1,
+       21.6
+      ],
+      [
+       88.9,
+       21.6
+      ],
+      [
+       88.9,
+       22.1
+      ],
+      [
+       88.1,
+       22.1
+      ],
+      [
+       88.1,
+       21.6
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "risk_level": "High",
+    "note": "illustrative screening zone"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       87.6,
+       21.6
+      ],
+      [
+       88.0,
+       21.6
+      ],
+      [
+       88.0,
+       21.9
+      ],
+      [
+       87.6,
+       21.9
+      ],
+      [
+       87.6,
+       21.6
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "risk_level": "High",
+    "note": "illustrative screening zone"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       88.28,
+       22.42
+      ],
+      [
+       88.36,
+       22.42
+      ],
+      [
+       88.36,
+       22.5
+      ],
+      [
+       88.28,
+       22.5
+      ],
+      [
+       88.28,
+       22.42
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "risk_level": "High",
+    "note": "illustrative screening zone"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       88.7,
+       22.4
+      ],
+      [
+       89.0,
+       22.4
+      ],
+      [
+       89.0,
+       22.6
+      ],
+      [
+       88.7,
+       22.6
+      ],
+      [
+       88.7,
+       22.4
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

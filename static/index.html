@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cyclone Shield – Anticipatory Cyclone Risk & Early Warning</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+:root{--p:#0284c7;--bg:#f8fafc}
+*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,"Noto Sans","Noto Sans Oriya","Noto Sans Telugu","Noto Sans Bengali",sans-serif;margin:0;display:flex;height:100vh;overflow:hidden;background:var(--bg);color:#1e293b}
+#sidebar{width:440px;background:#fff;border-right:1px solid #e2e8f0;display:flex;flex-direction:column;z-index:1000}
+.header{padding:16px 20px;background:#0f172a;color:#fff}.header h1{margin:0;font-size:1.2rem}.header p{margin:4px 0 0;font-size:.78rem;color:#94a3b8}
+.controls{padding:12px 16px;border-bottom:1px solid #e2e8f0;display:flex;flex-direction:column;gap:8px}
+label{font-size:.7rem;font-weight:700;text-transform:uppercase;color:#64748b}
+select,button,input{padding:8px 12px;border-radius:6px;border:1px solid #cbd5e1;font-size:.88rem}
+button{background:var(--p);color:#fff;border:none;font-weight:600;cursor:pointer}button:hover{opacity:.9}button:disabled{opacity:.5}
+#map{flex:1;height:100%}
+.content{padding:12px 16px;overflow-y:auto;flex:1;display:flex;flex-direction:column;gap:12px}
+.card{border:1px solid #e2e8f0;border-radius:8px;padding:12px}.card h3{margin:0 0 8px;font-size:.92rem}
+table{width:100%;border-collapse:collapse;font-size:.8rem}th,td{padding:5px 6px;border-bottom:1px solid #f1f5f9;text-align:left}th{color:#64748b}
+.tabs{display:flex;gap:4px;margin-bottom:8px}.tab{padding:5px 10px;background:#e2e8f0;color:#475569;font-size:.78rem}.tab.active{background:var(--p);color:#fff}
+.badge{padding:2px 6px;border-radius:4px;font-size:.72rem;font-weight:700}.exposed{background:#fee2e2;color:#991b1b}.safe{background:#dcfce7;color:#166534}
+.warn{background:#fef9c3;color:#854d0e;padding:6px 8px;border-radius:6px;font-size:.75rem;margin-bottom:8px}
+.note{font-size:.72rem;color:#64748b}.row{display:flex;gap:8px}.row button{flex:1}
+.sms{background:#0f172a;color:#e2e8f0;padding:10px;border-radius:8px;font-size:.8rem;white-space:pre-wrap;margin-top:8px}
+.legend{position:absolute;bottom:20px;right:12px;background:#fff;padding:8px 10px;border-radius:8px;z-index:900;font-size:.75rem;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px}
+@media(max-width:800px){body{flex-direction:column-reverse}#sidebar{width:100%;height:55vh}}
+</style></head>
+<body>
+<div id="sidebar">
+  <div class="header"><h1>🛡️ Cyclone Shield</h1><p>Anticipatory cyclone risk &amp; multilingual early warning for India's coast</p></div>
+  <div class="controls">
+    <label>State</label>
+    <select id="stateSelect" onchange="loadState()"></select>
+    <label>Cyclone replay or live forecast</label>
+    <select id="eventSelect" onchange="fetchExposure()"></select>
+    <label id="stressRow" style="display:none;text-transform:none;font-weight:600"><input type="checkbox" id="stress" onchange="fetchExposure()" style="width:auto"> What-if stress test (2× wind &amp; rain)</label>
+    <div id="liveBanner"></div>
+    <div class="row"><button onclick="fetchExposure()">🔄 Exposure</button>
+    <button id="advBtn" onclick="generateAdvisory()" style="background:#0d9488">⚡ AI Advisory</button></div>
+    
+  </div>
+  <div class="content">
+    <div id="msg"></div>
+    <div class="card"><h3>District exposure (critical assets in flood zone)</h3><div id="table">Loading…</div></div>
+    <div class="card" id="ranking" style="display:none"><h3>AI risk ranking</h3><div id="rankBody"></div></div>
+    <div class="card" id="advCard" style="display:none">
+      <h3>Advisories by authority</h3><div id="warn"></div>
+      <div class="tabs"><button class="tab active" id="tabEn" onclick="setLang('english')">English</button>
+      <button class="tab" id="tabLocal" onclick="setLang('local')">Local</button></div>
+      <div id="advBody"></div><div class="note" id="engines" style="margin-top:6px"></div>
+      <div class="row" style="margin-top:8px"><button id="audioBtn" onclick="playAudio()" style="background:#7c3aed">🔊 Play audio</button>
+      <button onclick="showDispatch()" style="background:#2563eb">📨 Dispatch</button></div>
+      <div id="dispatch"></div>
+    </div>
+    <div class="card"><h3>Field photo damage classifier (Gemini vision)</h3>
+      <input type="file" id="photo" accept="image/*" style="width:100%;margin-bottom:8px">
+      <button onclick="analyzePhoto()" style="width:100%;background:#475569">🔍 Analyze photo</button>
+      <div id="photoRes" style="margin-top:8px;font-size:.85rem"></div></div>
+  </div>
+</div>
+<div id="map"></div>
+<div class="legend"><div><span class="dot" style="background:#dc2626"></span>Exposed asset</div>
+<div><span class="dot" style="background:#16a34a"></span>Outside flood zone</div>
+<div><span class="dot" style="background:#fca5a5"></span>Flood zone (replay)</div><div><span class="dot" style="background:#f97316"></span>Forecast hazard (live)</div><div>┅ Cyclone track</div></div>
+<script>
+const map=L.map('map').setView([20,85.8],8);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap'}).addTo(map);
+const layers=L.layerGroup().addTo(map);
+let states={},expo=null,adv=null,lang='english';
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const showMsg=(t)=>$('msg').innerHTML=t?`<div class="warn">${esc(t)}</div>`:'';
+
+async function init(){
+  try{states=await (await fetch('/states')).json();}catch(e){return showMsg('Could not load states: '+e);}
+  const sel=$('stateSelect');sel.innerHTML='';
+  for(const [k,v] of Object.entries(states)){const o=document.createElement('option');o.value=k;o.textContent=v.name;sel.appendChild(o);}
+  loadState();
+}
+function loadState(){
+  const c=states[$('stateSelect').value];map.setView(c.center,c.zoom);adv=null;
+  ['advCard','ranking'].forEach(i=>$(i).style.display='none');$('tabLocal').textContent=c.language_name;
+  const ev=$('eventSelect');ev.innerHTML='<option value="live">🔴 LIVE forecast (next 72h)</option>'+
+    c.cyclones.map(x=>`<option value="${x.id}">${esc(x.name)} — replay</option>`).join('');
+  ev.value=c.cyclones[0].id;fetchExposure();
+}
+async function fetchExposure(){
+  const k=$('stateSelect').value,ev=$('eventSelect').value;showMsg('');adv=null;
+  ['advCard','ranking'].forEach(i=>$(i).style.display='none');
+  const isLive=ev==='live';$('stressRow').style.display=isLive?'block':'none';
+  $('liveBanner').innerHTML=isLive?'<div class="note">Fetching live forecast…</div>':'';
+  try{const r=await fetch(`/exposure?state=${k}&cyclone=${ev}&stress=${isLive&&$('stress').checked?2:1}`);
+    if(!r.ok)throw new Error((await r.json()).detail||r.status);
+    expo=await r.json();renderMap();renderTable();
+    if(isLive){const a=expo.active_cyclones;
+      $('liveBanner').innerHTML=`<div class="warn" style="background:${a&&a.length?'#fee2e2':'#dcfce7'};color:#1e293b">🌀 Active cyclones near India (GDACS): <b>${a===null?'feed unavailable':a.length?a.map(x=>esc(x.name)+' ('+esc(x.alertlevel)+')').join(', '):'none reported'}</b><br>Forecast generated ${esc(expo.generated_at)} UTC · ${expo.exposed_assets.length} asset(s) at high hazard</div>`;}
+  }catch(e){showMsg('Exposure failed: '+e.message);}
+}
+function renderMap(){
+  layers.clearLayers();
+  L.geoJSON(expo.districts,{style:{color:'#3b82f6',fillOpacity:0,weight:1,dashArray:'2'},
+    onEachFeature:(f,l)=>l.bindTooltip(f.properties.district,{sticky:true})}).addTo(layers);
+  const LC={1:'#eab308',2:'#f97316',3:'#dc2626'};
+  L.geoJSON(expo.flood_zone,{style:f=>f.properties.level?{color:LC[f.properties.level],fillColor:LC[f.properties.level],fillOpacity:.35,weight:1}:{color:'#ef4444',fillColor:'#fca5a5',fillOpacity:.45,weight:2}}).addTo(layers);
+  (expo.active_cyclones||[]).forEach(c=>L.circleMarker([c.lat,c.lon],{radius:11,color:'#7c3aed',fillColor:'#a78bfa',fillOpacity:.9}).bindTooltip('🌀 '+c.name+' ('+c.alertlevel+')',{permanent:true}).addTo(layers));
+  L.geoJSON(expo.track,{style:{color:'#0f172a',weight:4,dashArray:'6 6'}}).addTo(layers);
+  L.geoJSON(expo.assets,{pointToLayer:(f,ll)=>L.circleMarker(ll,{radius:7,fillColor:f.properties.exposed?'#dc2626':'#16a34a',color:'#fff',weight:1.5,fillOpacity:.95})
+    .bindPopup(`<b>${esc(f.properties.name)}</b><br>${esc(f.properties.type)} · ${esc(f.properties.district)}<br>${f.properties.exposed?'⚠ In projected hazard zone':'Outside hazard zone'}${f.properties.max_gust_kmh!=null?`<br>Peak gust ${f.properties.max_gust_kmh} km/h · 24h rain ${f.properties.max_rain_24h_mm} mm`:''}`)}).addTo(layers);
+}
+function renderTable(){
+  let h='<table><tr><th>District</th><th>Sub</th><th>Hosp</th><th>Road</th><th>Shelter</th><th>Exposed</th></tr>';
+  for(const [d,c] of Object.entries(expo.exposure_summary))
+    h+=`<tr><td><b>${esc(d)}</b></td><td>${c.substation}</td><td>${c.hospital}</td><td>${c.road}</td><td>${c.shelter}</td><td><span class="badge ${c.total_exposed?'exposed':'safe'}">${c.total_exposed}/${c.total_assets}</span></td></tr>`;
+  $('table').innerHTML=h+'</table>';
+}
+async function generateAdvisory(){
+  if(!expo)return;const b=$('advBtn');b.disabled=true;b.textContent='Generating…';
+  try{const r=await fetch('/advisory',{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({state:$('stateSelect').value,exposure_summary:expo.exposure_summary,exposed_assets:expo.exposed_assets,context:expo.context||''})});
+    if(!r.ok)throw new Error(await r.text());adv=await r.json();renderAdvisory();}
+  catch(e){showMsg('Advisory failed: '+e.message);}
+  b.disabled=false;b.textContent='⚡ AI Advisory';
+}
+function setLang(l){lang=l;$('tabEn').classList.toggle('active',l==='english');$('tabLocal').classList.toggle('active',l==='local');renderAdvisory();}
+function renderAdvisory(){
+  if(!adv)return;$('advCard').style.display='block';$('ranking').style.display='block';
+  $('rankBody').innerHTML='<table><tr><th>District</th><th>Score</th><th>Priority</th></tr>'+
+    (adv.risk_ranking||[]).map(r=>`<tr><td>${esc(r.district)}</td><td>${esc(r.risk_score)}/10</td><td><span class="badge ${['Critical','High'].includes(r.priority)?'exposed':'safe'}">${esc(r.priority)}</span></td></tr>`).join('')+'</table>';
+  $('warn').innerHTML=adv.translation_ok?'':'<div class="warn">Translation unavailable (check Google Cloud credentials) — showing English.</div>';
+  $('advBody').innerHTML=Object.entries(adv.authorities_translated).map(([a,v])=>`<p style="margin:6px 0"><b>${esc(a.toUpperCase())}</b><br>${esc(v[lang])}</p>`).join('');
+  $('engines').textContent=`Advisory: ${adv.engines.advisory} · Translation: ${adv.engines.translation}`;
+  $('audioBtn').title=adv.engines.audio_supported?'':`Audio not available for ${adv.language_name}`;
+}
+async function playAudio(){
+  if(!adv)return;const code=lang==='english'?'en':adv.language_code;
+  const text=Object.values(adv.authorities_translated).map(v=>v[lang]).join('. ');
+  const r=await fetch('/tts',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({text,language_code:code})});
+  if(r.status===204||!r.ok)return showMsg(`Audio not available for ${lang==='english'?'English':adv.language_name} (Cloud TTS unsupported or not configured). Text advisory shown instead.`);
+  new Audio(URL.createObjectURL(await r.blob())).play();
+}
+function smsText(){const c=adv.cap_alert;
+  return `⚠ ${c.event}\nSeverity: ${c.severity} | Urgency: ${c.urgency}\nArea: ${c.area}\n${lang==='local'?adv.cap_instruction_local:c.instruction}\n— ${states[$('stateSelect').value].sdma_contact}`;}
+function showDispatch(){
+  if(!adv)return;$('dispatch').innerHTML=`<div class="sms">${esc(smsText())}</div>
+  <button style="width:100%;margin-top:8px;background:#dc2626" onclick="sendDispatch()">Confirm dispatch (simulated)</button><div id="dres" class="note"></div>`;
+}
+async function sendDispatch(){
+  const r=await fetch('/dispatch',{method:'POST',headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({state:$('stateSelect').value,cap_alert:adv.cap_alert,message:smsText(),language:lang==='local'?adv.language_code:'en'})});
+  const d=await r.json();$('dres').textContent=`✅ Alert #${d.id} queued via ${d.channel} at ${d.time}`;
+}
+async function analyzePhoto(){
+  const f=$('photo').files[0];if(!f)return alert('Choose a photo first');
+  const fd=new FormData();fd.append('file',f);$('photoRes').textContent='Analyzing with Gemini…';
+  try{const d=await (await fetch('/analyze-photo',{method:'POST',body:fd})).json();
+    $('photoRes').innerHTML=`<b>${esc(d.classification)}</b><br>Severity: <span class="badge exposed">${esc(d.severity)}</span> · Confidence: ${esc(d.confidence)}<br>${esc(d.recommended_action)}<div class="note">${esc(d.engine)}</div>`;}
+  catch(e){$('photoRes').textContent='Failed: '+e;}
+}
+init();
+</script></body></html>

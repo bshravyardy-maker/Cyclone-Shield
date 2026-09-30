@@ -1,0 +1,145 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "risk_level": "High",
+    "district": "Kutch",
+    "note": "illustrative screening zone"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       68.4,
+       23.0
+      ],
+      [
+       70.0,
+       23.0
+      ],
+      [
+       70.0,
+       23.464769492389696
+      ],
+      [
+       68.4,
+       23.464769492389696
+      ],
+      [
+       68.4,
+       23.0
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "risk_level": "High",
+    "district": "Devbhumi Dwarka",
+    "note": "illustrative screening zone"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       68.6,
+       22.0
+      ],
+      [
+       69.05372793232574,
+       22.0
+      ],
+      [
+       69.05372793232574,
+       22.9
+      ],
+      [
+       68.6,
+       22.9
+      ],
+      [
+       68.6,
+       22.0
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "risk_level": "High",
+    "district": "Jamnagar",
+    "note": "illustrative screening zone"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       69.6,
+       22.544775142178306
+      ],
+      [
+       70.5,
+       22.544775142178306
+      ],
+      [
+       70.5,
+       22.9
+      ],
+      [
+       69.6,
+       22.9
+      ],
+      [
+       69.6,
+       22.544775142178306
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "risk_level": "High",
+    "district": "Morbi",
+    "note": "illustrative screening zone"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       70.5,
+       23.029587799855094
+      ],
+      [
+       71.1,
+       23.029587799855094
+      ],
+      [
+       71.1,
+       23.3
+      ],
+      [
+       70.5,
+       23.3
+      ],
+      [
+       70.5,
+       23.029587799855094
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

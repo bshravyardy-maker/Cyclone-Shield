@@ -1,0 +1,36 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "max_wind_kmh": 185
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      84.0,
+      13.0
+     ],
+     [
+      83.6,
+      15.5
+     ],
+     [
+      83.3,
+      17.7
+     ],
+     [
+      83.0,
+      19.0
+     ],
+     [
+      82.5,
+      20.5
+     ]
+    ]
+   }
+  }
+ ]
+}

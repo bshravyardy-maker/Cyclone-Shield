@@ -1,0 +1,243 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Sagar Island Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     88.1,
+     21.7
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Sagar Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     88.05,
+     21.8
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Gosaba Embankment Road",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     88.7,
+     22.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Sundarbans Shelter 1",
+    "type": "shelter"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     88.6,
+     21.9
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Diamond Harbour Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     88.2,
+     22.2
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Kakdwip Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     88.2,
+     21.85
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Canning Grid Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     88.65,
+     22.31
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Digha Coastal Shelter",
+    "type": "shelter"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     87.75,
+     21.7
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Contai Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     87.75,
+     21.8
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Haldia Road Link",
+    "type": "road"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     87.9,
+     22.05
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Tamluk Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     87.6,
+     22.05
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Kolkata Port Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     88.32,
+     22.45
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Kolkata Riverside Shelter",
+    "type": "shelter"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     88.3,
+     22.48
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "SSKM Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     88.35,
+     22.54
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Basirhat Hospital",
+    "type": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     88.85,
+     22.65
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Sandeshkhali Shelter",
+    "type": "shelter"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     88.85,
+     22.5
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Barasat Substation",
+    "type": "substation"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     88.5,
+     22.72
+    ]
+   }
+  }
+ ]
+}

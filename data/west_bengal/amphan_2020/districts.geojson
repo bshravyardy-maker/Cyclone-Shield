@@ -1,0 +1,137 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "district": "South 24 Parganas"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       88.0,
+       21.5
+      ],
+      [
+       89.0,
+       21.5
+      ],
+      [
+       89.0,
+       22.4
+      ],
+      [
+       88.0,
+       22.4
+      ],
+      [
+       88.0,
+       21.5
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "district": "North 24 Parganas"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       88.4,
+       22.4
+      ],
+      [
+       89.1,
+       22.4
+      ],
+      [
+       89.1,
+       23.2
+      ],
+      [
+       88.4,
+       23.2
+      ],
+      [
+       88.4,
+       22.4
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "district": "Purba Medinipur"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       87.4,
+       21.6
+      ],
+      [
+       88.0,
+       21.6
+      ],
+      [
+       88.0,
+       22.2
+      ],
+      [
+       87.4,
+       22.2
+      ],
+      [
+       87.4,
+       21.6
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "district": "Kolkata"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       88.2,
+       22.4
+      ],
+      [
+       88.4,
+       22.4
+      ],
+      [
+       88.4,
+       22.65
+      ],
+      [
+       88.2,
+       22.65
+      ],
+      [
+       88.2,
+       22.4
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "district": "Balasore"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       86.6,
+       21.2
+      ],
+      [
+       87.4,
+       21.2
+      ],
+      [
+       87.4,
+       21.9
+      ],
+      [
+       86.6,
+       21.9
+      ],
+      [
+       86.6,
+       21.2
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "district": "Bhadrak"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       86.2,
+       20.7
+      ],
+      [
+       87.0,
+       20.7
+      ],
+      [
+       87.0,
+       21.2
+      ],
+      [
+       86.2,
+       21.2
+      ],
+      [
+       86.2,
+       20.7
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "district": "Kendrapara"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       86.2,
+       20.3
+      ],
+      [
+       87.0,
+       20.3
+      ],
+      [
+       87.0,
+       20.7
+      ],
+      [
+       86.2,
+       20.7
+      ],
+      [
+       86.2,
+       20.3
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "district": "Jagatsinghpur"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       86.0,
+       19.95
+      ],
+      [
+       86.9,
+       19.95
+      ],
+      [
+       86.9,
+       20.3
+      ],
+      [
+       86.0,
+       20.3
+      ],
+      [
+       86.0,
+       19.95
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "district": "Nellore"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       79.6,
+       13.9
+      ],
+      [
+       80.4,
+       13.9
+      ],
+      [
+       80.4,
+       14.8
+      ],
+      [
+       79.6,
+       14.8
+      ],
+      [
+       79.6,
+       13.9
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "district": "Prakasam"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       79.6,
+       14.8
+      ],
+      [
+       80.4,
+       14.8
+      ],
+      [
+       80.4,
+       15.7
+      ],
+      [
+       79.6,
+       15.7
+      ],
+      [
+       79.6,
+       14.8
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "district": "Bapatla"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       80.1,
+       15.7
+      ],
+      [
+       80.8,
+       15.7
+      ],
+      [
+       80.8,
+       16.2
+      ],
+      [
+       80.1,
+       16.2
+      ],
+      [
+       80.1,
+       15.7
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "district": "Krishna"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       80.8,
+       15.8
+      ],
+      [
+       81.5,
+       15.8
+      ],
+      [
+       81.5,
+       16.5
+      ],
+      [
+       80.8,
+       16.5
+      ],
+      [
+       80.8,
+       15.8
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,145 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "risk_level": "High",
+    "district": "Chennai",
+    "note": "illustrative screening zone"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       80.24042074962261,
+       13.0
+      ],
+      [
+       80.32,
+       13.0
+      ],
+      [
+       80.32,
+       13.2
+      ],
+      [
+       80.24042074962261,
+       13.2
+      ],
+      [
+       80.24042074962261,
+       13.0
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "risk_level": "High",
+    "district": "Tiruvallur",
+    "note": "illustrative screening zone"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       80.03541717572058,
+       13.2
+      ],
+      [
+       80.3,
+       13.2
+      ],
+      [
+       80.3,
+       13.7
+      ],
+      [
+       80.03541717572058,
+       13.7
+      ],
+      [
+       80.03541717572058,
+       13.2
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "risk_level": "High",
+    "district": "Chengalpattu",
+    "note": "illustrative screening zone"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       80.04285995474272,
+       12.4
+      ],
+      [
+       80.3,
+       12.4
+      ],
+      [
+       80.3,
+       13.0
+      ],
+      [
+       80.04285995474272,
+       13.0
+      ],
+      [
+       80.04285995474272,
+       12.4
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "risk_level": "High",
+    "district": "Villupuram",
+    "note": "illustrative screening zone"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       79.68264055399034,
+       11.7
+      ],
+      [
+       80.0,
+       11.7
+      ],
+      [
+       80.0,
+       12.4
+      ],
+      [
+       79.68264055399034,
+       12.4
+      ],
+      [
+       79.68264055399034,
+       11.7
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

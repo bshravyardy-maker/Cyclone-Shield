@@ -1,0 +1,145 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "risk_level": "High",
+    "district": "Balasore",
+    "note": "illustrative screening zone"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       86.98042091195512,
+       21.2
+      ],
+      [
+       87.4,
+       21.2
+      ],
+      [
+       87.4,
+       21.9
+      ],
+      [
+       86.98042091195512,
+       21.9
+      ],
+      [
+       86.98042091195512,
+       21.2
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "risk_level": "High",
+    "district": "Bhadrak",
+    "note": "illustrative screening zone"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       86.596936502524,
+       20.7
+      ],
+      [
+       87.0,
+       20.7
+      ],
+      [
+       87.0,
+       21.2
+      ],
+      [
+       86.596936502524,
+       21.2
+      ],
+      [
+       86.596936502524,
+       20.7
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "risk_level": "High",
+    "district": "Kendrapara",
+    "note": "illustrative screening zone"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       86.60385824891803,
+       20.3
+      ],
+      [
+       87.0,
+       20.3
+      ],
+      [
+       87.0,
+       20.7
+      ],
+      [
+       86.60385824891803,
+       20.7
+      ],
+      [
+       86.60385824891803,
+       20.3
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "risk_level": "High",
+    "district": "Jagatsinghpur",
+    "note": "illustrative screening zone"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       86.49499564339968,
+       19.95
+      ],
+      [
+       86.9,
+       19.95
+      ],
+      [
+       86.9,
+       20.3
+      ],
+      [
+       86.49499564339968,
+       20.3
+      ],
+      [
+       86.49499564339968,
+       19.95
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}
